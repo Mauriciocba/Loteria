@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&family=Luckiest+Guy&family=Oswald&family=Phudu&family=Press+Start+2P&family=Roboto+Mono:ital,wght@1,100&family=Tilt+Prism&display=swap');
+
+body{
+    background-image: url("/img/imagen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.titulo{
+    font-family: Tilt Prism;
+    text-align: center;
+    font-size: 80px
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.jugador{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.compu{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numeros {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+.numeros div{
+    margin: 5px;
+    padding: 5px;
+}
+
+.bombo button{ 
+padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ background-color: white;
+ box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+ transition: all .5s ease;
+}
+
+button:hover {
+ letter-spacing: 3px;
+ background-color: hsl(261deg 80% 48%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+ letter-spacing: 3px;
+ background-color: hsl(261deg 80% 48%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+ transform: translateY(10px);
+ transition: 100ms;
+}
+
+
